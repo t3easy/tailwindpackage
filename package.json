@@ -1,0 +1,13 @@
+{
+  "browserslist": [
+    "> 1%"
+  ],
+  "devDependencies": {
+    "tailwindcss": "^1.8.8"
+  },
+  "license": "GPL-2.0-or-later",
+  "scripts": {
+    "build:css:dev": "npx tailwindcss build Resources/Private/Css/main.css -o Resources/Public/Css/main.dev.css",
+    "build:css:prod": "NODE_ENV=production npx tailwindcss build Resources/Private/Css/main.css -o Resources/Public/Css/main.prod.css"
+  }
+}

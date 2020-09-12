@@ -1,0 +1,16 @@
+{
+    "name": "t3easy/tailwindpackage",
+    "description": "Tailwind CSS site package and templates for common TYPO3 extensions",
+    "type": "typo3-cms-extension",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Jan Kiesewetter",
+            "email": "jan@t3easy.de"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^9.5 || ^10.4",
+        "typo3/cms-fluid-styled-content": "^9.5 || ^10.4"
+    }
+}
